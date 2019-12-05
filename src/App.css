@@ -1,0 +1,52 @@
+*:focus{
+  box-shadow: none;
+  outline: none;
+}
+
+
+.header{
+  background-color: deeppink;
+}
+.body ul{
+margin: 0;
+padding:15px;
+}
+.body ul li:nth-child(even){
+  list-style: none;
+  background: #ccc;
+  padding:10px;
+  margin-bottom:10px;
+}
+.body ul li:nth-child(odd){
+  list-style: none;
+  background: #ddd;
+  padding:10px;
+  margin-bottom:10px;
+}
+.body ul li span{
+  float: right;
+  cursor: pointer;
+}
+.footer{
+  background-color: deeppink;
+  bottom: 0;
+}
+.footer input{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size:18px;
+}
+.footer button{
+  width: 50px;
+  height:50px;
+  position: absolute;
+  background: deeppink;
+  font-size:25px;
+  box-shadow: 3px 3px 4px;
+  border: none;
+  top: -24px;
+  
+
+}
